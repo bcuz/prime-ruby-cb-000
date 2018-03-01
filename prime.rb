@@ -6,6 +6,8 @@ def prime?(num)
   # loop through numbers
   # if divisible by anything but itself, not prime
 
+  nums = (2..num).to_a
+
   # if num == 2
   #   return true
   # elsif num > 1 and num.even?

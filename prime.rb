@@ -8,6 +8,8 @@ def prime?(num)
 
   if num == 2
     true
+  elsif num < 0
+    false
   else
 
   nums = (2...num).to_a

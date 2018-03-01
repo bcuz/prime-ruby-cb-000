@@ -14,8 +14,14 @@ def prime?(num)
 
   nums.each do |n|
 
-    if num % n
+    if num % n == 0
+      return false
+
+
+    end
   end
+
+  return true
 end
 
   # if num == 2

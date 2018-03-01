@@ -6,7 +6,17 @@ def prime?(num)
   # loop through numbers
   # if divisible by anything but itself, not prime
 
-  nums = (2..num).to_a
+  if num == 2
+    true
+  else
+
+  nums = (2...num).to_a
+
+  nums.each do |n|
+
+    if num % n
+  end
+end
 
   # if num == 2
   #   return true
